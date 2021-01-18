@@ -7,11 +7,6 @@ namespace testing
         public WorkReport()
         {
         }
-        public WorkReport(string employeeId,DateTime date)
-        {
-            Date = date;
-            EmployeeId = employeeId;
-        }
         public DateTime Date { get; set; }
         public string EmployeeId { get; set; }
     }
