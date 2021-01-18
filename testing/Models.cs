@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace testing
 {
@@ -9,6 +10,7 @@ namespace testing
         }
         public DateTime Date { get; set; }
         public string EmployeeId { get; set; }
+        public List<Activity> Activities {get; set;}
     }
     class Activity
     {
